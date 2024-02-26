@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body: #fff;
+        --text-color: #fff;
+        --dots: #EBEBEB;
+        --footer-link: #7177F1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .site-hero__image {
+        max-width: unset;
+        width: 100% !important;
+        object-fit: cover;
+    }
+}
